@@ -85,7 +85,9 @@
                 </div>
 
                 <div class="form-container">
-                    <div class="corm"></div>
+                    <form action="" method="POST">
+                        <input type="text" placeholder="Введите адрес">
+                    </form>
                 </div>
             </div>
         </div>
