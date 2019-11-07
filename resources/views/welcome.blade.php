@@ -85,8 +85,10 @@
                 </div>
 
                 <div class="form-container">
-                    <form action="" method="POST">
-                        <input type="text" placeholder="Введите адрес">
+                    <form action="/" method="POST">
+                        @csrf
+                        <input type="text" name="url" placeholder="Введите адрес">
+                        <input type="submit" value="Send">
                     </form>
                 </div>
             </div>

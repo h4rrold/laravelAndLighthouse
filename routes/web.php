@@ -14,4 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::post('/lighthousecontroller','LighthouseFormController@formSubmit');
+
+Route::post('/', "LighthouseForm@index");

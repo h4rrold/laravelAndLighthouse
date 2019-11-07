@@ -7,9 +7,15 @@
         "laravel"
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dzava/lighthouse-php"
+        }
+    ],
     "require": {
         "php": "^7.2",
-        "droath/robo-google-lighthouse": "^1.0",
+        "dzava/lighthouse": "dev-master",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.2",
         "laravel/tinker": "^1.0",
